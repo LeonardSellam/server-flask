@@ -1,5 +1,5 @@
 from flask import Flask
-from .admin.admin import admin
+from .client.admin import admin
 
 
 app = Flask(__name__, instance_relative_config=True)
